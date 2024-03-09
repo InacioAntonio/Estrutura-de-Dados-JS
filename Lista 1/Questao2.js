@@ -1,0 +1,14 @@
+import VetorPilhas from "./VetorPilhas.js";
+const tamanho = 10;
+let vp = new VetorPilhas(tamanho);
+vp.empilharA(2);
+vp.empilharA(3);
+vp.empilharB(4);
+vp.empilharB(5);
+vp.empilharB(6);
+vp.empilharB(7);
+vp.empilharB(8);
+vp.empilharB(9);
+vp.empilharB(10);
+vp.empilharB(11);
+console.log(vp);
